@@ -2,13 +2,13 @@
 body {
 	background-color: #DEE4E7;
 	font-size: 1.1em;
-	padding-left: 30px;
+	padding-left: 20px;
 }
 h1, h2 {
 	color: #3277b3;
 	font-weight: bold;
 	font-size: 2em;
-	font-family: Verdana, "Courier New" serif;
+	font-family: Verdana, "Courier New", serif;
 }
 h1 {
 	color: #37474F;
