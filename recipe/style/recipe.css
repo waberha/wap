@@ -33,10 +33,6 @@ a:link, a:visited {
 	text-decoration: line-through;
 }
 
-pre {
-	margin-left: -7.2em;
-}
-
 #comments p {
 	font-style: italic;
 	background-color: #FFFFA8;
@@ -53,4 +49,24 @@ pre {
 
 ul {
 	list-style: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+
+footer {
+	font-family: monospace;
+	text-align: right;
+	cont
+}
+
+
+.alignright {
+	float: right;
+}
+
+footer span {
+	float: right;
+}
+
+footer p {
+	text-align: left;
+	line-height: .3em;
 }
