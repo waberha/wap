@@ -1,0 +1,39 @@
+
+body {
+	background-color: #DEE4E7;
+	font-size: 1.1em;
+	padding-left: 30px;
+}
+h1, h2 {
+	color: #3277b3;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: Verdana, "Courier New" serif;
+}
+h1 {
+	color: #37474F;
+}
+
+section img {
+	height: 250px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p::first-letter {
+	font-size: 1.5em;
+}
+
+ol {
+	transform: rotate(180deg);
+	padding-right: 44px;
+}
+ol > li {
+	transform: rotate(-180deg);
+}
