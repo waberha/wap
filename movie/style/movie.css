@@ -1,0 +1,126 @@
+body {
+    background-image: url("../img/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background-image: url("../img/bannerbg.png");
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+#banner img {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+#main-section {
+    width: 800px;
+    margin: auto;
+    border-width: 4px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+aside {
+    width: 250px;
+    float:right;
+    background-color: #A2B964;
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+}
+
+aside dl {
+    padding-left: 10px;
+}
+
+aside dt {
+    padding-top: 10pt;
+    font-weight: bold;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #A2B964;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+#review-section {
+    width: 550px;
+    float: left;
+}
+
+#review-section > div:first-child {
+    color: red;
+    font-size: 48pt;
+    font-weight: bold;
+    background-image: url("../img/rbg.png");
+    background-repeat: repeat-x;
+}
+
+#review-section > div > img:first-child {
+    vertical-align: text-bottom;
+}
+
+.col {
+    width: 47%;
+    margin-left: 2%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.comment {
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.comment img {
+    margin-right: 5px;
+    float: left;
+    height: 1.5em;
+}
+
+.comment + p {
+    font-style: italic;
+}
+
+.comment + p img {
+    float: left;
+    margin-right: 5px;
+}
+
+body > div:last-child {
+    position: fixed;
+    opacity: 50%;
+    bottom: 0;
+    right: 0;
+}
