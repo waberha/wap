@@ -1,0 +1,50 @@
+.container {
+    padding: 40px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #303438;
+    margin: 25px auto;
+    width: 50%;
+
+    border-style: solid;
+    border-color: #303438;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container input {
+    margin-top: 8px;
+}
+
+.wide {
+    display: block;
+    width: 95%;
+}
+
+.long {
+    height: 2.5em;
+}
+
+input[type="submit"] {
+
+    color: white;
+    background-color: #2596be;
+    border-color: #2596be; 
+    box-shadow: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.email::after {
+    content: "We'll never share your email with anyone else.";
+    display: block;
+    color: #7b7c80;
+    font-size: .8em;
+    padding-top: 5px;
+}

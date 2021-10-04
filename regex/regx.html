@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>W2D1 Quiz</title>
+    <meta charset="utf-8">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css"> -->
+    <link rel="stylesheet" href="style/regex.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script> -->
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+
+    </script>
+
+    <script src="code.js"></script>
+    <script src="tests.js"></script>
+</head>
+
+<body>
+
+    <section class="container">
+        <form method="POST">
+            <label class="email">Email address <br/>
+                <input class="wide long" type="email" name="email" id="email" placeholder="Enter email">
+            </label>
+            <label>Password <br/>
+                <input class="wide long" type="password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{10,}$" title="Email should be at least 10 characters long and contains a digit, a lower chase and upper case" />
+            </label>
+            <label><input type="checkbox" name="check-me" id="check-me" value="check-me"/>
+                Check me out
+            </label>
+            <label>
+                <input type="submit" value="Submit" /> 
+            </label>
+        </form>
+    </section>
+
+    <div id="mocha"></div>
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>
