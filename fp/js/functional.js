@@ -10,7 +10,7 @@ function multiply(nums) {
 }
 
 function reverse(str) {
-    return [...str].reverse().join('');
+    return [...str].sort((a,b) => -1).join('');
 }
 
 function filterLongWords(words, i) {
