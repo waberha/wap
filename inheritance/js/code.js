@@ -26,3 +26,5 @@ Teacher.prototype = Object.create(Person.prototype);
 Teacher.prototype.teach = function(subject) {
     return `${this.name} is now teaching ${subject}`;
 }
+
+
