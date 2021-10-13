@@ -1,0 +1,36 @@
+
+.container {
+    position: absolute;
+    bottom: 90px;
+    left: 25px;
+    font-family: Helvetica, sans-serif;
+    font-size: .8em;;
+}
+
+.container > * {
+    display: block;
+}
+
+.container > * {
+    padding: 5px 0;
+}
+
+.container > input {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #53777a;
+    color: white;
+    width: 50px;
+    padding: 10px;
+    border-color: #53777a;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
