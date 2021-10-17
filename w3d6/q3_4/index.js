@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const urlencodedParser = express.urlencoded({extended: false});
 
-
 let products = [
 	{
 		'name': 'Timberland',
