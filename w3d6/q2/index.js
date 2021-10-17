@@ -10,6 +10,7 @@ app.get('/', (req, resp) => {
 });
 
 app.post('/result', urlencodedParser, (req, resp) => {
+	
 	let name = !(req.body.name) ? 'person' : req.body.name;
 	let age = isNaN(req.body.age) ? 'unknown' : req.body.age;
 	resp.render('result', {
