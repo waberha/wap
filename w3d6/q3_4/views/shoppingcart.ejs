@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EJS</title>
+</head>
+<body>
+    <h1>Shopping Cart!</h1>
+
+    <% for(let cart of carts) {%>
+        <div>Name: <%=cart.name%></div>
+        <div>Price: <%=cart.price%></div>
+        <div>Quantity: <%=cart.quantity%></div>
+        <br/>
+	<%}%>
+</body>
+</html>
+
