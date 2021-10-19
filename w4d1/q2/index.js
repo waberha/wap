@@ -46,7 +46,7 @@ app.get('/output', (req, resp) => {
 app.post('/result', urlencodedParser, (req, resp) => {
     req.session['name'] = req.body.name;
     req.session['age'] = req.body.age;
-	resp.redirect(303, '/output');
+    resp.redirect(303, '/output');
 });
 
 app.listen(3000);
