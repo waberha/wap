@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EJS</title>
+</head>
+<body>
+    <h1>Shop!</h1>
+    <%
+        for(let prod of products) {
+            %><a href="/product?name=<%=prod.name%>"><%=prod.name%></a><br/><%
+        }
+    %>
+</body>
+</html>
